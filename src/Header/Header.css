@@ -1,0 +1,55 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #728197;
+  height: 60px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  height: 50px;
+  margin-left: 200px;
+}
+.logo p {
+  font-family: "Rowdies";
+  font-weight: 500;
+  font-size: 2rem;
+  margin-left: 16px;
+}
+.logo p span {
+  color: #667fea;
+}
+nav {
+  display: flex;
+  align-items: center;
+  font-family: "lato";
+  position: absolute;
+  right: 200px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  margin-right: 40px;
+}
+nav ul li:last-child {
+  margin-right: 0;
+}
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #728197;
+  font-weight: 700;
+  transition: transform 0.3s ease-out;
+}
+nav ul li a:hover {
+  color: #667fea;
+  transform: translateY(-1px);
+}
