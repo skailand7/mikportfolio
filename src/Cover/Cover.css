@@ -4,7 +4,7 @@
 .cover-contain {
   margin-top: 36px;
   display: grid;
-  grid-template-columns: 200px 1fr 200px;
+  grid-template-columns: 20% 1fr 20%;
   font-family: "lato";
   font-weight: 700;
   position: relative;
@@ -85,4 +85,27 @@
   background-color: #fff;
   color: #667fea;
   border-color: #667fea;
+}
+@media (max-width: 480px) {
+  .cover-container {
+    grid-template-columns: 1fr;
+  }
+  .cover-contain {
+    margin: auto;
+    display: block;
+    width: 90%;
+    height: 200px;
+  }
+  .cover-picture {
+    display: none;
+  }
+  .cover-text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .cover-text h1,
+  .cover-text p {
+    text-align: center;
+  }
 }

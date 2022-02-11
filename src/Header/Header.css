@@ -6,12 +6,19 @@ header {
 }
 .logo {
   display: flex;
+  align-items: center;
+}
+.logo-text {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 .logo img {
   height: 50px;
   margin-left: 200px;
+}
+.logo-menu {
+  display: none;
 }
 .logo p {
   font-family: "Rowdies";
@@ -52,4 +59,30 @@ nav ul li a {
 nav ul li a:hover {
   color: #667fea;
   transform: translateY(-1px);
+}
+
+@media (max-width: 480px) {
+  nav {
+    display: none;
+  }
+  .logo img {
+    height: 1rem;
+    margin-left: 1rem;
+  }
+  .logo p {
+    font-size: 1.5rem;
+  }
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo-menu {
+    display: block;
+    margin-right: 16px;
+  }
+  header {
+    height: 40px;
+  }
 }
