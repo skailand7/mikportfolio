@@ -1,9 +1,11 @@
-import imgProfile from "./me.png";
 import "./App.css";
+import React from "react";
 import { Header } from "./Header/Header";
 import { Cover } from "./Cover/Cover";
 import { Main } from "./Main/Main";
-import React from "react";
+import { Footer } from "./Footer/Footer";
+
+import { Contact } from "./Contact/Contact";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Header />
       <Cover />
       <Main />
+      <Footer />
+      <Contact />
     </React.Fragment>
   );
 }
