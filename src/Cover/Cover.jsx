@@ -8,7 +8,7 @@ const Cover = () => {
       <div className="cover-contain">
         <div className="cover-text">
           <h1>
-            Hi, I'm <span>Miguel Turpo</span>. <br />
+            Hi! I'm <span>Miguel Turpo</span>. <br />
             Web Developer
           </h1>
           <p>Let's create cool things! 🚀</p>

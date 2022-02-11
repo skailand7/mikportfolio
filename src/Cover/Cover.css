@@ -108,4 +108,7 @@
   .cover-text p {
     text-align: center;
   }
+  .cover-text h1 {
+    font-size: 2rem;
+  }
 }

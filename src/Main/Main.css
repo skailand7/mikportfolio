@@ -1,0 +1,141 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 20% 1fr 20%;
+  grid-template-rows: 150px 300px 800px;
+  place-items: center;
+  margin-top: 4rem;
+}
+.about-me {
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+}
+.short-text {
+  width: 50%;
+  text-align: center;
+}
+.short-text p {
+  color: #728197;
+  font-family: "lato";
+}
+.skill-bar {
+  width: 80%;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.section-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+.skill-icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+.skill-icons div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.skill-icons div img {
+  height: 70px;
+}
+.projects-bar {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.projects-container {
+  display: flex;
+  justify-content: space-between;
+}
+.single-project {
+  width: 225px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  margin-bottom: 20px;
+
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #cecece, -20px -20px 60px #f2f2f2;
+}
+.card-project {
+  padding: 16px;
+}
+
+.card-project h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+.single-project span,
+.single-project p {
+  font-family: "lato";
+  font-size: 0.8rem;
+  color: #728197;
+}
+.single-project p {
+  margin-top: 2rem;
+  color: #333;
+}
+.single-project img {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+}
+.badges {
+  display: flex;
+}
+.badges span {
+  border-radius: 8px;
+  color: white;
+  padding: 2px 4px;
+  font-size: 10px;
+  margin-left: 2px;
+}
+.badges span:first-child {
+  background-color: #ff5722;
+}
+.badges span:nth-child(2) {
+  background-color: #2196f3;
+}
+.badges span:nth-child(3) {
+  background-color: #ffdf00;
+}
+.badges span:nth-child(4) {
+  background-color: #61dbfb;
+}
+
+@media (max-width: 480px) {
+  .main-container {
+    grid-template-columns: 1fr;
+  }
+  .short-text {
+    width: 80%;
+  }
+  .section-title {
+    font-size: 1.5rem;
+  }
+  .projects-bar .section-title {
+    margin: 0 24px;
+    text-align: center;
+  }
+  .projects-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .single-project {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+  .skill-icons div img {
+    height: 30px;
+  }
+}
