@@ -15,14 +15,14 @@ const Cover = () => {
         <div className="cover-text">
           <h1>
             Hi! I'm <span>Miguel Turpo</span>. <br />
-            Web Developer
+            Frontend Developer
           </h1>
           <p>Let's create cool things! 🚀</p>
           <div className="buttons">
+            <button className="myButton secondary">About Me</button>
             <button onClick={openForm} className="myButton">
               Contact Me
             </button>
-            <button className="myButton secondary">About Me</button>
           </div>
         </div>
         <div className="cover-picture">
