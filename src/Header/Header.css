@@ -2,7 +2,12 @@ header {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #728197;
+  background-color: white;
   height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
 }
 .logo {
   display: flex;
@@ -68,6 +73,9 @@ nav ul li a:hover {
   .logo img {
     height: 1rem;
     margin-left: 1rem;
+  }
+  .logo img:last-child {
+    height: 36px;
   }
   .logo p {
     font-size: 1.5rem;

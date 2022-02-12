@@ -1,5 +1,5 @@
 .cover-contain {
-  margin-top: 36px;
+  margin-top: 96px;
   display: grid;
   grid-template-columns: 20% 1fr 20%;
   font-family: "lato";
@@ -88,7 +88,7 @@
     grid-template-columns: 1fr;
   }
   .cover-contain {
-    margin: auto;
+    margin: 30px auto;
     display: block;
     width: 90%;
     height: 200px;
