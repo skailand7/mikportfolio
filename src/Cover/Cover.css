@@ -9,7 +9,7 @@
   height: 200px;
 }
 .cover-contain h1 span {
-  color: #667fea;
+  color: #066b8e;
 }
 .cover-picture__img img {
   height: 200px;
@@ -31,7 +31,7 @@
   align-content: center;
 }
 .cover-picture__img {
-  background-color: #667fea;
+  background-color: #066b8e;
   border-radius: 50%;
   width: 45%;
   z-index: 1;
@@ -71,17 +71,17 @@
 .myButton {
   width: 48%;
   height: 36px;
-  background-color: #667fea;
+  background-color: #066b8e;
   border-radius: 28px;
-  border: 1px solid #669fea;
+  border: 1px solid #066b8e;
   cursor: pointer;
   color: #ffffff;
   font-size: 16px;
 }
 .secondary {
   background-color: #fff;
-  color: #667fea;
-  border-color: #667fea;
+  color: #066b8e;
+  border-color: #066b8e;
 }
 @media (max-width: 480px) {
   .cover-container {

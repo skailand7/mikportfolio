@@ -28,7 +28,7 @@
 }
 .contact-contain label {
   margin-top: 1rem;
-  color: #667fea;
+  color: #066b8e;
 }
 .contact-contain input {
   width: 100%;
@@ -44,17 +44,17 @@
 .button {
   width: 40%;
   height: 36px;
-  background-color: #667fea;
+  background-color: #066b8e;
   border-radius: 28px;
-  border: 1px solid #669fea;
+  border: 1px solid #066b8e;
   cursor: pointer;
   color: #ffffff;
   font-size: 16px;
 }
 .cancel {
   background-color: #fff;
-  color: #667fea;
-  border-color: #667fea;
+  color: #066b8e;
+  border-color: #066b8e;
 }
 .hidden {
   display: none;
