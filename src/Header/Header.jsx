@@ -30,7 +30,7 @@ const Header = () => {
             Mik<span className="text-indigo-700">Code</span>
           </p>
         </div>
-        <nav className="invisible md:visible w-3/5">
+        <nav className="xsm:hidden md:block lg:block w-3/5">
           <ul className="flex justify-evenly">
             <li>
               <a href="">Home</a>

@@ -1,26 +1,44 @@
 import React from "react";
-import "./Footer.css";
 
 const Footer = () => {
   return (
     <footer>
-      <div className="footer-container">
-        <p>Click on the icons below to contact me!</p>
-        <div className="footer-container-logo">
+      <div className="h-[500px] bg-indigo-700 p-8 flex flex-col justify-between">
+        <p className="text-white font-bold text-lg">
+          Click on the icons below to contact me!
+        </p>
+        <div className="flex justify-center space-x-6 my-8">
           <a href="https://twitter.com/skailand7">
             <img
-              src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png"
+              src="https://pngimg.com/uploads/twitter/twitter_PNG1.png"
               alt="Twitter logo"
+              className="h-16"
             />
           </a>
           <a href="https://github.com/skailand7">
             <img
               src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
               alt="Github logo"
+              className="h-16"
+            />
+          </a>
+          <a href="https://github.com/skailand7">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/61/61109.png"
+              alt="LinkedIn logo"
+              className="h-16"
             />
           </a>
         </div>
-        <p>Copyright 2022 Ⓒ Miguel Turpo</p>
+        <div className="mt-16 flex flex-col space-y-4 text-white font-bold text-xl">
+          <a href="">Home</a>
+          <a href="">About me</a>
+          <a href="">Projects</a>
+          <a href="">Contact</a>
+        </div>
+        <p className="mt-12 text-center text-white">
+          Copyright 2022 Ⓒ Miguel Turpo
+        </p>
       </div>
     </footer>
   );

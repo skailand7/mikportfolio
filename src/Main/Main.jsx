@@ -1,7 +1,6 @@
 import React from "react";
 import "./Main.css";
-import projectPoke from "../project-pk.png";
-import yardSale from "../yard-sale.png";
+
 import imgProfile from "../me.png";
 
 const Main = () => {
@@ -71,7 +70,7 @@ const Main = () => {
                 className="h-12"
               />
               <div>
-                <p className="font-bold text-gray-800">React</p>
+                <p className="font-bold text-gray-800">React JS</p>
                 <p className="text-lg text-gray-800">Web Development</p>
               </div>
             </div>
@@ -83,6 +82,31 @@ const Main = () => {
               />
               <div>
                 <p className="font-bold text-gray-800">Tailwind CSS</p>
+                <p className="text-lg text-gray-800">Web Design</p>
+              </div>
+            </div>
+            <div className="w-full h-20 p-4 rounded-xl border border-gray-300 bg-gray-100 flex items-center space-x-4 hover:bg-gray-200">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                alt="React"
+                className="h-12"
+              />
+              <div>
+                <p className="font-bold text-gray-800">GitHub</p>
+                <p className="text-lg text-gray-800">Version Control</p>
+              </div>
+            </div>
+            <div className="w-full h-20 p-4 rounded-xl border border-gray-300 bg-gray-100 flex items-center space-x-4 hover:bg-gray-200">
+              <img
+                src="https://iconape.com/wp-content/files/gm/82643/svg/next-js.svg"
+                alt="React"
+                className="h-12"
+              />
+              <div>
+                <p className="font-bold text-gray-800">
+                  Next JS{" "}
+                  <span className="text-gray-400">(In progress...)</span>
+                </p>
                 <p className="text-lg text-gray-800">Web Design</p>
               </div>
             </div>
