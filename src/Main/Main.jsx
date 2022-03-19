@@ -107,7 +107,7 @@ const Main = () => {
                   Next JS{" "}
                   <span className="text-gray-400">(In progress...)</span>
                 </p>
-                <p className="text-lg text-gray-800">Web Design</p>
+                <p className="text-lg text-gray-800">Web Development</p>
               </div>
             </div>
           </div>
