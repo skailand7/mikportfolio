@@ -6,6 +6,7 @@ import { Main } from "./Main/Main";
 import { Projects } from "./Projects/Projects";
 import { Footer } from "./Footer/Footer";
 import { Contact } from "./Contact/Contact";
+import { SideMenu } from "./SideMenu/SideMenu";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Projects />
       <Footer />
       <Contact />
+      <SideMenu />
     </React.Fragment>
   );
 }

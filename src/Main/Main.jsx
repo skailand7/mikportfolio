@@ -6,16 +6,16 @@ import imgProfile from "../me.png";
 const Main = () => {
   return (
     <section className="w-full flex flex-col items-center justify-center">
-      <div className="flex justify-center md:w-3/5 lg:w-3/5 flex-col">
-        <div className=" flex justify-center p-4 ">
-          <div className="flex items-center p-4 mb-16 space-x-4 sm:w-3/5 md:w-4/5 px-2 bg-indigo-100 text-indigo-700 rounded-xl">
+      <div className="flex justify-center sm:w-full md:w-full lg:w-3/5 flex-col">
+        <div className=" flex justify-center p-4 w-full">
+          <div className="flex items-center justify-center p-4 mb-16 space-x-4 sm:w-4/5 md:w-4/5 px-2 bg-indigo-100 text-indigo-700 rounded-xl">
             <img
               src={imgProfile}
               alt=""
               className="md:hidden w-auto h-36 md:h-64 rounded-full border-2 bg-gradient-to-r from-cyan-500 to-blue-500"
             />
             <div className="">
-              <p className="text-md text-indigo-700 md:text-center">
+              <p className="text-md lg:text-xl text-indigo-700 lg:text-center md:text-center">
                 Currently I'm still learning new technologies and frameworks.
                 <br />
                 Below you can find my stack as well as the projects I made. Hope

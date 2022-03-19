@@ -3,6 +3,21 @@ import menu from "../menu.svg";
 import "./Header.css";
 
 const Header = () => {
+  const handleMenu = () => {
+    const sideMenu = document.querySelector("#side-menu");
+    const buttonMenu = document.querySelector("#button-menu");
+    const buttonClose = document.querySelector("#button-close");
+
+    if (sideMenu.classList.contains("hidden")) {
+      sideMenu.classList.remove("hidden");
+      buttonMenu.classList.add("hidden");
+      buttonClose.classList.remove("hidden");
+    } else {
+      sideMenu.classList.add("hidden");
+      buttonMenu.classList.remove("hidden");
+      buttonClose.classList.add("hidden");
+    }
+  };
   const openForm = (event) => {
     event.preventDefault();
     const contactContainer = document.querySelector("#contact-container");
@@ -48,19 +63,40 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        <div className="bg-white/75 w-7 h-7 rounded-md flex items-center justify-center md:hidden">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-8 w-8 text-gray-600"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path
-              fillRule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-              clipRule="evenodd"
-            />
-          </svg>
+        <div
+          onClick={handleMenu}
+          className="z-30 bg-white/75 w-10 h-10 border rounded-md flex items-center justify-center md:hidden"
+        >
+          <div id="button-menu" className="">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-8 w-8 text-gray-600"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fillRule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </div>
+          <div id="button-close" className="hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-8 w-8 text-gray-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </header>
