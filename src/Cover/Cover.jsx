@@ -10,7 +10,10 @@ const Cover = () => {
     contactContainer.classList.remove("hidden");
   };
   return (
-    <section className="p-4 w-full h-[350px] md:h-[450px] flex justify-center ">
+    <section
+      id="home"
+      className="p-4 w-full h-[350px] md:h-[450px] flex justify-center "
+    >
       <div className="px-2 md:px-0 flex md:w-4/5 lg:w-3/5 justify-between items-center">
         <div className="">
           <h1 className="text-center md:text-left font-bold text-4xl text-gray-700">

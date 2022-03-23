@@ -5,7 +5,7 @@ import restaurant from "../project-restaurant.png";
 import petcare from "../project-petcare.png";
 const Projects = () => {
   return (
-    <section className="p-4 space-y-8 w-full flex justify-center">
+    <section id="projects" className="p-4 space-y-8 w-full flex justify-center">
       <div className="w-full sm:w-4/5 md:w-3/5 lg:w-3/5 mt-8">
         <p className="text-2xl font-bold text-gray-700 text-center">
           Projects I made :)

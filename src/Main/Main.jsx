@@ -8,7 +8,10 @@ const Main = () => {
     <section className="w-full flex flex-col items-center justify-center">
       <div className="flex justify-center sm:w-full md:w-full lg:w-3/5 flex-col">
         <div className=" flex justify-center p-4 w-full">
-          <div className="flex items-center justify-center p-4 mb-16 space-x-4 sm:w-4/5 md:w-4/5 px-2 bg-indigo-100 text-indigo-700 rounded-xl">
+          <div
+            id="about-me"
+            className="flex items-center justify-center p-4 mb-16 space-x-4 sm:w-4/5 md:w-4/5 px-2 bg-indigo-100 text-indigo-700 rounded-xl"
+          >
             <img
               src={imgProfile}
               alt=""
