@@ -59,7 +59,7 @@ const Main = () => {
               <img
                 src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
                 alt="javascript"
-                className="h-12"
+                className="h-12 rounded-lg"
               />
               <div>
                 <p className="font-bold text-gray-800">JavaScript</p>
@@ -80,7 +80,7 @@ const Main = () => {
             <div className="w-full h-20 p-4 rounded-xl border border-gray-300 bg-gray-100 flex items-center space-x-4 hover:bg-gray-200">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
-                alt="React"
+                alt="TailwindCSS"
                 className="h-12"
               />
               <div>
@@ -91,7 +91,7 @@ const Main = () => {
             <div className="w-full h-20 p-4 rounded-xl border border-gray-300 bg-gray-100 flex items-center space-x-4 hover:bg-gray-200">
               <img
                 src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-                alt="React"
+                alt="GitHub"
                 className="h-12"
               />
               <div>
@@ -101,8 +101,19 @@ const Main = () => {
             </div>
             <div className="w-full h-20 p-4 rounded-xl border border-gray-300 bg-gray-100 flex items-center space-x-4 hover:bg-gray-200">
               <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png"
+                alt="Typescript"
+                className="h-12"
+              />
+              <div>
+                <p className="font-bold text-gray-800">Typescript</p>
+                <p className="text-lg text-gray-800">Web Development</p>
+              </div>
+            </div>
+            <div className="w-full h-20 p-4 rounded-xl border border-gray-300 bg-gray-100 flex items-center space-x-4 hover:bg-gray-200">
+              <img
                 src="https://iconape.com/wp-content/files/gm/82643/svg/next-js.svg"
-                alt="React"
+                alt="NextJS"
                 className="h-12"
               />
               <div>
