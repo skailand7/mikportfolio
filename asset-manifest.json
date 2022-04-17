@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.5eb1a028.css",
-    "main.js": "/static/js/main.62c958da.js",
-    "static/media/yard-sale.png": "/static/media/yard-sale.cd2298f8eda6fc274bb7.png",
+    "main.css": "/static/css/main.9a6ada12.css",
+    "main.js": "/static/js/main.51da98ba.js",
     "static/media/me.png": "/static/media/me.5e7379e564b3d29de886.png",
+    "static/media/mikmovies.PNG": "/static/media/mikmovies.66f679b74a12a0a61a6e.PNG",
     "static/media/project-restaurant.png": "/static/media/project-restaurant.03af0cda498d3e7e08c7.png",
     "static/media/project-pk.png": "/static/media/project-pk.b7661580e44b61950a60.png",
     "static/media/project-petcare.png": "/static/media/project-petcare.ccbc403fcc7ff07ac44c.png",
     "index.html": "/index.html",
     "static/media/menu.svg": "/static/media/menu.b8a7b1d59f0db78710540be56c0f6573.svg",
-    "main.5eb1a028.css.map": "/static/css/main.5eb1a028.css.map",
-    "main.62c958da.js.map": "/static/js/main.62c958da.js.map"
+    "main.9a6ada12.css.map": "/static/css/main.9a6ada12.css.map",
+    "main.51da98ba.js.map": "/static/js/main.51da98ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.5eb1a028.css",
-    "static/js/main.62c958da.js"
+    "static/css/main.9a6ada12.css",
+    "static/js/main.51da98ba.js"
   ]
 }
