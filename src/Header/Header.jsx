@@ -41,20 +41,22 @@ const Header = () => {
               d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
             />
           </svg>
-          <p className="text-gray-700 text-2xl">
-            Mik<span className="text-indigo-700">Code</span>
-          </p>
+          <a href="/">
+            <p className="text-gray-700 text-2xl">
+              Mik<span className="text-indigo-700">Code</span>
+            </p>
+          </a>
         </div>
         <nav className="xsm:hidden md:block lg:block w-3/5">
           <ul className="flex justify-evenly">
             <li>
-              <a href="">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="">About me</a>
+              <a href="#about-me">About me</a>
             </li>
             <li>
-              <a href="">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
               <a onClick={openForm} href="">

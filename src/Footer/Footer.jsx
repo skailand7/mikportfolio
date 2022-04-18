@@ -10,21 +10,21 @@ const Footer = () => {
         <div className="flex justify-center h-12 md:h-16 md:space-x-16 space-x-6 my-8">
           <a href="https://twitter.com/skailand7">
             <img
-              src="https://pngimg.com/uploads/twitter/twitter_PNG1.png"
+              src="https://www.pngkey.com/png/full/957-9574123_twitter-twitter-icon-white-transparent.png"
               alt="Twitter logo"
               className="h-full"
             />
           </a>
           <a href="https://github.com/skailand7">
             <img
-              src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+              src="https://www.nicepng.com/png/full/52-520535_free-files-github-github-icon-png-white.png"
               alt="Github logo"
               className="h-full"
             />
           </a>
           <a href="https://github.com/skailand7">
             <img
-              src="https://cdn-icons-png.flaticon.com/512/61/61109.png"
+              src="https://pnggrid.com/wp-content/uploads/2021/05/linkedin-logo-white-1024x1024.png"
               alt="LinkedIn logo"
               className="h-full"
             />

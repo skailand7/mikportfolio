@@ -11,8 +11,8 @@
 .contact-contain {
   border-radius: 8px;
   background-color: white;
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +28,6 @@
 }
 .contact-contain label {
   margin-top: 1rem;
-  color: #066b8e;
 }
 .contact-contain input {
   width: 100%;
@@ -41,21 +40,6 @@
   justify-content: space-evenly;
 }
 
-.button {
-  width: 40%;
-  height: 36px;
-  background-color: #066b8e;
-  border-radius: 28px;
-  border: 1px solid #066b8e;
-  cursor: pointer;
-  color: #ffffff;
-  font-size: 16px;
-}
-.cancel {
-  background-color: #fff;
-  color: #066b8e;
-  border-color: #066b8e;
-}
 .hidden {
   display: none;
 }

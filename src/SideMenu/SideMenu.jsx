@@ -20,7 +20,7 @@ const SideMenu = () => {
   return (
     <section
       id="side-menu"
-      className="hidden absolute top-0 space-y-8 h-[450px] w-full rounded-b-2xl bg-indigo-500 p-8"
+      className="z-20 hidden absolute top-0 space-y-8 h-[450px] w-full rounded-b-2xl bg-indigo-500 p-8"
     >
       <div className="flex flex-col justify-center h-3/5 w-full space-y-8 text-white font-bold">
         <a onClick={handleMenu} href="">

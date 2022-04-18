@@ -10,19 +10,20 @@ const Main = () => {
         <div className=" flex justify-center p-4 w-full">
           <div
             id="about-me"
-            className="flex items-center justify-center p-4 mb-16 space-x-4 sm:w-4/5 md:w-4/5 px-2 bg-indigo-100 text-indigo-700 rounded-xl"
+            className="flex flex-col sm:flex-row items-center justify-center p-4 mb-16 space-x-4 sm:w-4/5 md:w-4/5 px-2 bg-indigo-100 text-indigo-700 rounded-xl"
           >
             <img
               src={imgProfile}
               alt=""
-              className="md:hidden w-auto h-36 md:h-64 rounded-full border-2 bg-gradient-to-r from-cyan-500 to-blue-500"
+              className="md:hidden w-auto h-36 md:h-64 rounded-full border-2 bg-gradient-to-b from-indigo-400 to-indigo-100"
             />
             <div className="">
-              <p className="text-md lg:text-xl text-indigo-700 lg:text-center md:text-center">
-                Currently I'm still learning new technologies and frameworks.
-                <br />
+              <p className="mt-4 sm:mt-0 text-md font-semibold lg:font-normal lg:text-xl text-indigo-700 lg:text-center md:text-center">
+                {`Currently I'm still learning new technologies and frameworks.
+                
+
                 Below you can find my stack as well as the projects I made. Hope
-                you like it! 😌
+                you like it! 😄`}
               </p>
             </div>
           </div>
