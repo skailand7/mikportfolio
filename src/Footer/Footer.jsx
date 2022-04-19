@@ -30,7 +30,7 @@ const Footer = () => {
             />
           </a>
         </div>
-        <div className="mt-16 flex flex-col space-y-4 text-white font-bold text-xl">
+        <div className="mt-16 flex flex-col space-y-4 text-white font-semibold text-xl">
           <a href="#home">Home</a>
           <a href="#about-me">About me</a>
           <a href="#projects">Projects</a>

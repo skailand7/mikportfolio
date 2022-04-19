@@ -5,7 +5,7 @@ import imgProfile from "../me.png";
 
 const Main = () => {
   return (
-    <section className="w-full flex flex-col items-center justify-center">
+    <section className="bg-white w-full flex flex-col items-center justify-center">
       <div className="flex justify-center sm:w-full md:w-full lg:w-3/5 flex-col">
         <div className=" flex justify-center p-4 w-full">
           <div
@@ -17,8 +17,8 @@ const Main = () => {
               alt=""
               className="md:hidden w-auto h-36 md:h-64 rounded-full border-2 bg-gradient-to-b from-indigo-400 to-indigo-100"
             />
-            <div className="">
-              <p className="mt-4 sm:mt-0 text-md font-semibold lg:font-normal lg:text-xl text-indigo-700 lg:text-center md:text-center">
+            <div className="px-2 md:px-0">
+              <p className="mt-4 sm:mt-0 text-md lg:text-xl text-indigo-700 lg:text-center md:text-center">
                 {`Currently I'm still learning new technologies and frameworks.
                 
 

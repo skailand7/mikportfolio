@@ -16,8 +16,8 @@ const Cover = () => {
       className="p-4 w-full h-[350px] md:h-[450px] flex justify-center "
     >
       <div className="relative px-2 md:px-0 flex md:w-4/5 lg:w-3/5 justify-between items-center">
-        <div className="absolute right-0 -z-30 top-0">
-          <img src={dot} className="" />
+        <div className="absolute right-0 -z-30 top-0 w-full h-full">
+          <img src={dot} className="scale-[3] md:scale-[2] lg:scale-[1]" />
         </div>
         <div className="md:bg-white">
           <h1 className="text-center md:text-left font-bold text-4xl text-gray-700">

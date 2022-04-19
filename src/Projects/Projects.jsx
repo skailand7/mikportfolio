@@ -67,6 +67,54 @@ const Projects = () => {
           <div className="border w-full md:w-4/5 lg:w-full shadow-lg bg-gray-200 rounded-2xl">
             <div className="flex flex-col items-center space-y-2">
               <img
+                src={restaurant}
+                alt=""
+                className="h-64 w-full rounded-t-2xl border-gray-300"
+              />
+              <div className="px-4 pb-4">
+                <p className="text-center text-gray-500 -mb-2">React Hooks</p>
+                <p className="text-center font-bold text-xl text-gray-700">
+                  Restaurant
+                </p>
+                <p className="text-md mt-2 mx-4 text-gray-600">
+                  It shows breakfast, dinner and coffe. Responsive design,
+                  shopping cart (not backend yet).
+                </p>
+                <div className="w-full flex justify-center space-x-4 mt-2">
+                  <a
+                    href="https://github.com/skailand7/restaurant"
+                    target="_blank"
+                    className="flex w-1/3 p-2 space-x-2 justify-center items-center border border-indigo-700 bg-indigo-700 rounded-xl "
+                  >
+                    <p className="text-white font-semibold">See Repo</p>
+                  </a>
+                  <a
+                    href="https://skailand7.github.io/restaurant"
+                    target="_blank"
+                    className="flex w-1/3 p-2 space-x-2 justify-center items-center border border-indigo-700 bg-indigo-700 rounded-xl "
+                  >
+                    <p className="text-white font-semibold">See live</p>
+                  </a>
+                </div>
+                <div className="flex space-x-4 mt-8 justify-end">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
+                    alt=""
+                    className="h-6"
+                  />
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png"
+                    alt=""
+                    className="h-6"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="border w-full md:w-4/5 lg:w-full shadow-lg bg-gray-200 rounded-2xl">
+            <div className="flex flex-col items-center space-y-2">
+              <img
                 src={petcare}
                 alt=""
                 className="h-64 w-full rounded-t-2xl border-gray-300"
@@ -114,53 +162,6 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="border w-full md:w-4/5 lg:w-full shadow-lg bg-gray-200 rounded-2xl">
-            <div className="flex flex-col items-center space-y-2">
-              <img
-                src={restaurant}
-                alt=""
-                className="h-64 w-full rounded-t-2xl border-gray-300"
-              />
-              <div className="px-4 pb-4">
-                <p className="text-center text-gray-500 -mb-2">React Hooks</p>
-                <p className="text-center font-bold text-xl text-gray-700">
-                  Restaurant
-                </p>
-                <p className="text-md mt-2 mx-4 text-gray-600">
-                  It shows breakfast, dinner and coffe. Responsive design,
-                  shopping cart (not backend yet).
-                </p>
-                <div className="w-full flex justify-center space-x-4 mt-2">
-                  <a
-                    href="https://github.com/skailand7/restaurant"
-                    target="_blank"
-                    className="flex w-1/3 p-2 space-x-2 justify-center items-center border border-indigo-700 bg-indigo-700 rounded-xl "
-                  >
-                    <p className="text-white font-semibold">See Repo</p>
-                  </a>
-                  <a
-                    href="https://skailand7.github.io/restaurant"
-                    target="_blank"
-                    className="flex w-1/3 p-2 space-x-2 justify-center items-center border border-indigo-700 bg-indigo-700 rounded-xl "
-                  >
-                    <p className="text-white font-semibold">See live</p>
-                  </a>
-                </div>
-                <div className="flex space-x-4 mt-8 justify-end">
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
-                    alt=""
-                    className="h-6"
-                  />
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png"
-                    alt=""
-                    className="h-6"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
           <div className="border w-full md:w-4/5 lg:w-full shadow-lg bg-gray-200 rounded-2xl">
             <div className="flex flex-col items-center space-y-2">
               <img
