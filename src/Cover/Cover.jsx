@@ -15,16 +15,19 @@ const Cover = () => {
       id="home"
       className="p-4 w-full h-[350px] md:h-[450px] flex justify-center "
     >
-      <div className="relative px-2 md:px-0 flex md:w-4/5 lg:w-3/5 justify-between items-center">
-        <div className="absolute right-0 -z-30 top-0 w-full h-full">
-          <img src={dot} className="scale-[3] md:scale-[2] lg:scale-[1]" />
+      <div className="relative w-full px-2 md:px-8 flex md:w-4/5 lg:w-3/5 justify-between items-center">
+        <div className="absolute right-0 -z-30 top-0 w-full h-full overflow-hidden">
+          <img
+            src={dot}
+            className="w-full scale-[2] md:scale-[1.3] lg:scale-[1]"
+          />
         </div>
-        <div className="md:bg-white">
-          <h1 className="text-center md:text-left font-bold text-4xl text-gray-700">
+        <div className="w-full md:w-auto flex flex-col md:block items-center">
+          <h1 className="md:bg-white text-center md:text-left font-bold text-4xl text-gray-700">
             Hey! I'm <span className="text-indigo-700">Miguel</span>. <br />
             <p className="text-3xl sm:text-4xl">Frontend Developer</p>
           </h1>
-          <p className="mt-4 sm:mt-0 text-gray-700 text-xl text-center md:text-left">
+          <p className="md:bg-white mt-4 sm:mt-0 text-gray-700 text-xl text-center md:text-left">
             Let's build amazing sites! 🚀
           </p>
           <div className="flex items-center justify-center mt-16">
