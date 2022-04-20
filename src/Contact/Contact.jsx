@@ -8,15 +8,18 @@ const Contact = () => {
     contactContainer.classList.add("hidden");
   };
   return (
-    <div className="contact-container hidden" id="contact-container">
-      <div className="contact-contain">
-        <form action="" className="text-indigo-900 font-semibold space-y-3">
-          <label htmlFor="input-name" className="text-indigo-900">
+    <div className="contact-container hidden z-20" id="contact-container">
+      <div className="space-y-4 w-[350px] md:w-[400px] h-[500px] p-4">
+        <form
+          action=""
+          className="w-full h-full flex flex-col rounded-xl justify-center text-indigo-900 dark:text-indigo-500 bg-gray-900 font-semibold space-y-3 p-8"
+        >
+          <label htmlFor="input-name" className="">
             Name
           </label>
           <input
             type="text"
-            className="border border-indigo-900 rounded-xl px-2 py-1"
+            className="border border-indigo-900 rounded-xl px-2 py-1 "
             placeholder="Type here..."
             name="input-name"
           />
@@ -38,7 +41,7 @@ const Contact = () => {
             <button
               onClick={closeForm}
               type="button"
-              className="w-24 border border-indigo-700 px-4 py-2 rounded-xl font-semibold"
+              className="w-24 border border-indigo-700 dark:border-gray-300 dark:text-gray-300 px-4 py-2 rounded-xl font-semibold"
             >
               Cancel
             </button>

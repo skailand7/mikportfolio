@@ -5,10 +5,13 @@ import restaurant from "../project-restaurant.png";
 import petcare from "../project-petcare.png";
 const Projects = () => {
   return (
-    <section id="projects" className="p-4 space-y-8 w-full flex justify-center">
+    <section
+      id="projects"
+      className=" p-4 space-y-8 w-full flex justify-center"
+    >
       <div className="w-full sm:w-3/5 md:w-4/5 lg:w-3/5 mt-8">
-        <p className="text-2xl font-bold text-gray-700 text-center">
-          Projects I made :)
+        <p className="text-2xl font-bold text-gray-700 dark:text-gray-300 text-center">
+          Projects I made 🧐
         </p>
         <div className="grid place-items-center md:grid-cols-1 lg:grid-cols-2  md:gap-x-4 lg:gap-x-32 gap-y-8 mt-8">
           <div className="border w-full max-w-[400px] md:max-w-[350px] md:w-4/5 lg:w-full lg:min-w-[300px] shadow-lg bg-gray-200 rounded-2xl">
