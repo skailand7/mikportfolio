@@ -1,4 +1,5 @@
 import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -17,12 +18,12 @@ const Footer = () => {
           </a>
           <a href="https://github.com/skailand7">
             <img
-              src="https://www.nicepng.com/png/full/52-520535_free-files-github-github-icon-png-white.png"
+              src="https://cdn-icons-png.flaticon.com/512/25/25657.png"
               alt="Github logo"
-              className="h-full"
+              className="h-full gh"
             />
           </a>
-          <a href="https://github.com/skailand7">
+          <a href="https://www.linkedin.com/in/miguel-turpo/">
             <img
               src="https://pnggrid.com/wp-content/uploads/2021/05/linkedin-logo-white-1024x1024.png"
               alt="LinkedIn logo"

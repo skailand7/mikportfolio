@@ -20,7 +20,7 @@ const SideMenu = () => {
   return (
     <section
       id="side-menu"
-      className="z-20 hidden absolute top-0 space-y-8 h-[450px] w-full rounded-b-2xl bg-indigo-500 dark:bg-gray-900 p-8 dark:shadow-[0_35px_60px_-15px_rgba(99,102,241,0.2)]"
+      className="z-20 hidden absolute top-0 space-y-8 h-[450px] w-full rounded-b-2xl bg-indigo-500 dark:bg-gray-900/[.99] p-8 dark:shadow-[0_35px_60px_-15px_rgba(99,102,241,0.2)]"
     >
       <div className="flex flex-col justify-center h-3/5 w-full space-y-8 text-white dark:text-indigo-500 font-bold">
         <a onClick={handleMenu} href="">
@@ -37,9 +37,15 @@ const SideMenu = () => {
         </a>
       </div>
       <div className="flex flex-col justify-center h-2/5 w-full space-y-4 text-white dark:text-indigo-300">
-        <a href="">Twitter</a>
-        <a href="">GitHub</a>
-        <a href="">LinkedIn</a>
+        <a href="https://twitter.com/skailand7" target="_blank">
+          Twitter
+        </a>
+        <a href="https://github.com/skailand7" target="_blank">
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/miguel-turpo/" target="_blank">
+          LinkedIn
+        </a>
       </div>
     </section>
   );
