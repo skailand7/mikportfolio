@@ -18,6 +18,17 @@ const Header = () => {
       buttonClose.classList.add("hidden");
     }
   };
+
+  const handleDarkMode = () => {
+    const darkButton = document.querySelector("#button-dark");
+    const principal = document.querySelector("html");
+
+    if (principal.classList.contains("dark")) {
+      principal.classList.remove("dark");
+    } else {
+      principal.classList.add("dark");
+    }
+  };
   const openForm = (event) => {
     event.preventDefault();
     const contactContainer = document.querySelector("#contact-container");
@@ -68,21 +79,26 @@ const Header = () => {
               </li>
             </ul>
           </nav>
-          <div className="z-30 bg-white/75 dark:bg-gray-800 dark:border-gray-600 w-10 h-10 border rounded-full flex items-center justify-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth="2"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
-              />
-            </svg>
+          <div
+            onClick={handleDarkMode}
+            className="z-30 bg-white/75 dark:bg-gray-800 dark:border-gray-600 w-10 h-10 border rounded-full flex items-center justify-center"
+          >
+            <div id="button-dark">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                />
+              </svg>
+            </div>
           </div>
           <div
             onClick={handleMenu}

@@ -2,12 +2,14 @@ import React from "react";
 import "./Cover.css";
 import imgProfile from "../me.png";
 import dot from "../dot.png";
+import darkDot from "../darkDot.png";
+
+const principal = document.querySelector("html");
 
 const Cover = () => {
   const openForm = (event) => {
     event.preventDefault();
     const contactContainer = document.querySelector("#contact-container");
-
     contactContainer.classList.remove("hidden");
   };
   return (
@@ -18,7 +20,7 @@ const Cover = () => {
       <div className="relative w-full px-2 md:px-8 flex md:w-4/5 lg:w-3/5 justify-between items-center">
         <div className="absolute right-0 top-0 w-full h-full overflow-hidden">
           <img
-            src={dot}
+            // src={`${principal.classList.contains("dark") ? darkDot : dot}`}
             className="w-full scale-[2] md:scale-[1.3] lg:scale-[1]"
           />
         </div>

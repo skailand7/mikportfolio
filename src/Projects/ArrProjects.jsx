@@ -23,8 +23,7 @@ const projects = [
     img: `${restaurant}`,
     otherTitle: "React Hooks",
     title: "Restaurant",
-    description:
-      "It shows breakfast, dinner and coffe. Responsive design, shopping cart (not backend yet).",
+    description: "Responsive design, shopping cart (not backend yet).",
     repo: "https://github.com/skailand7/restaurant",
     live: "https://skailand7.github.io/restaurant",
     stack: [
@@ -36,8 +35,7 @@ const projects = [
     img: `${petcare}`,
     otherTitle: "Tailwind Landing Page",
     title: "Pet Care Center",
-    description:
-      "Made for a vet center, designed using mobile first and Tailwind CSS Framework.",
+    description: "Developed using mobile first and Tailwind CSS Framework.",
     repo: "https://github.com/skailand7/pet-care",
     live: "https://skailand7.github.io/pet-care",
     stack: [

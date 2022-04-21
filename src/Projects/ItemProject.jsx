@@ -11,7 +11,7 @@ const ItemProject = ({
   stack,
 }) => {
   return (
-    <div className="border dark:border-gray-700 w-full max-w-[400px] md:max-w-[350px] md:w-4/5 lg:w-full lg:min-w-[300px] shadow-lg bg-gray-200 dark:bg-gray-800 rounded-2xl">
+    <div className="border dark:border-gray-700 w-full max-w-[400px] md:max-w-[350px] md:w-4/5 lg:w-full md:min-w-[320px] lg:min-w-[320px] shadow-lg bg-gray-200 dark:bg-gray-800 rounded-2xl">
       <div className="flex flex-col items-center space-y-2">
         <img src={img} alt="" className="h-64 w-full rounded-t-2xl" />
         <div className="px-4 pb-4">
