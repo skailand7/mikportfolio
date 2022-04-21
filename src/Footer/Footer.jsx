@@ -6,7 +6,7 @@ const Footer = () => {
     <footer id="footer" className="mt-16">
       <div className="h-[610px] bg-indigo-700 dark:bg-indigo-600 p-8 flex w-full flex-col justify-between">
         <p className="text-white text-center font-bold text-lg">
-          Click on the icons below to contact me!
+          Click on the icons to get in touch!
         </p>
         <div className="flex justify-center h-12 md:h-16 md:space-x-16 space-x-6 my-8">
           <a href="https://twitter.com/skailand7">
@@ -38,7 +38,7 @@ const Footer = () => {
           <a href="#footer">Contact</a>
         </div>
         <p className="mt-12 text-center text-white">
-          Copyright 2022 Ⓒ Miguel Turpo
+          Made with 🤍 by Miguel Turpo
         </p>
       </div>
     </footer>
