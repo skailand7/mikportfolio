@@ -91,7 +91,7 @@ const Main = () => {
                   alt={item.alt}
                   name={item.name}
                   description={item.description}
-                  key={item.key}
+                  key={item.name}
                 />
               );
             })}
