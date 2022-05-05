@@ -2,6 +2,7 @@ import React from "react";
 import "./Main.css";
 
 import imgProfile from "../me.png";
+import profile from "../profile.jpeg";
 import { ItemStack } from "./ItemStack";
 
 const stack = [
@@ -70,11 +71,11 @@ const Main = () => {
               className="md:hidden w-auto h-36 md:h-64 rounded-full border-2 dark:border-gray-800 bg-gradient-to-b from-indigo-600 to-white dark:to-gray-900"
             />
             <div className="px-2 md:px-0">
-              <p className="mt-4 sm:mt-0 text-lg lg:text-xl  text-center">
-                {`Currently I'm still learning new technologies and frameworks.
-                
-
-                Below you can find my stack as well as the projects I made. Hope
+              <p className="mt-4 sm:mt-0 text-lg lg:text-xl  text-left dark:text-indigo-200 font-semibold xsm:font-normal">
+                {`I'm a web developer based in Peru. I would like also to become a full stack but currently I'm focused in learning new front-end technologies.`}
+                <br></br>
+                <br></br>
+                {`While not coding you can find me reading about astronomy 🚀🪐 or listening to music 🎼🎸. Below you can find my stack as well as the projects I made. Hope
                 you like it! 😄`}
               </p>
             </div>

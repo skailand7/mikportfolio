@@ -1,6 +1,7 @@
 import React from "react";
 import "./Cover.css";
 import imgProfile from "../me.png";
+import profile from "../profile.jpeg";
 import hero from "../hero.png";
 
 const Cover = () => {
